@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  
+<!-- En-tête de la page -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reservia</title>
+<script src="../../kit.fontawesome.com/ba7b302cfb.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
+<link rel="preconnect" href="https://fonts.gstatic.com/">
+<link href="https://fonts.googleapis.com/css2?family=Raleway&amp;display=swap" rel="stylesheet">  
+</head>
+  
+<header>
+   <!-- HEADER -->
+   <header class="header">
+    <a href="#">
+        <img src="img/Reservia.svg" alt="reservia">
+    </a>
+    <nav>
+        <ul>
+            <li><a href="#hosting" data-active="true">Hébergements</a></li>
+            <li><a href="#activity" data-active="false">Activités</a></li>
+            <li id="headerSignup"><a href="#">S'inscrire</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- HEADER -->
+   </header>
+<body>
+    <!-- SEARCH -->
+    <section class="search">
+        <header>
+            <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+        </header>
+        <form>
+            <span class="searchFormWrapIcon">
+                <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <input type="search" placeholder="Bénin, Cotonou">
+            <button>
+                <i class="fas fa-search"></i>
+                <span class="searchFormButton">Rechercher</span> 
+            </button>
+        </form>
+        <div class="searchFilters">
+            <h2>Filtres</h2>  
+                <div><i class="fas fa-money-bill-wave"></i> Économique</div>
+                <div><i class="fas fa-child"></i> Familial</div>
+                <div><i class="fas fa-heart"></i> Romantique</div>
+                <div><i class="fas fa-dog"></i> Animaux autorisés</div>   
+        </div>
+        <div class="searchResult">
+            <div class="searchResultWrapIcon">
+                <i class="fas fa-info"></i>
+            </div>
+            <p class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+    </section>
+    <!-- SEARCH-->
+    <!-- HOSTING -->
+    <section class="hosting" id="hosting">
+        <div class="hostingMain">
+            <header>
+                <h2>Hébergements à Cotonou</h2>
+            </header>
+            <article>
+                <a href="#">
+                    <figure>
+                        <img src="img/hebergements/4_small/chambre1_novotel.jpg" alt="Chambre avec un lit superposé et une fenêtre donnant vue sur la  ville.">
+                    </figure>
+                    <h3>Chambre climatisee novotel</h3>
+                    <p>Nuit à partir de <b>25000 fcfa</b></p>
+                    <ul>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="false" class="fas fa-star"></i></li>
+                    </ul>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <figure>
+                        <img src="img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Chambre grise avec deux lits simples et une fenêtre.">  
+                    </figure>
+                    <h3>Hôtel du port</h3>
+                    <p>Nuit à partir de <b>52000 fcfa</b></p>
+                    <ul>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                    </ul>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <figure>
+                        <img src="img/hebergements/4_small/chambre1_azalai.jpg" alt="Chambre avec lit double, armoire et fenêtre.">
+                    </figure>
+                    <h3>Hôtel Azalai</h3>
+                    <p>Nuit à partir de <b>76000 fcfa</b></p>
+                    <ul>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="false" class="fas fa-star"></i></li>
+                    </ul>  
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <figure>
+                        <img src="img/hebergements/4_small/chambre-de-luxe.jpg" alt="Chambre avec lit double sur les tons de mer.">
+                    </figure>
+                    <h3>Sun beach Hôtel</h3>
+                    <p>Nuit à partir de <b>46000 fcfa</b></p>
+                    <ul>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="false" class="fas fa-star"></i></li>
+                        <li><i data-active="false" class="fas fa-star"></i></li>
+                    </ul>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <figure>
+                        <img src="img/hebergements/4_small/Art-Residence1.jpg" alt="Chambre avec lits simples superposés.">
+                    </figure>
+                    <h3>Art Résidence</h3>
+                    <p>Nuit à partir de <b>23000 fcfa</b></p>
+                    <ul>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="false" class="fas fa-star"></i></li>
+                    </ul>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <figure>
+                        <img src="img/hebergements/4_small/casa-del-papa.jpg" alt="Chambre éclairée avec lit double et grande fenêtre.">
+                    </figure>
+                    <h3>Hôtel Casa del papa</h3>
+                    <p>Nuit à partir de <b>96000 fcfa</b></p>
+                    <ul>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                        <li><i data-active="true" class="fas fa-star"></i></li>
+                    </ul>
+                </a>
+            </article>
+            <a href="#" class="hostingMainViewMore">Afficher plus</a>
+        </div>
+        <aside class="hostingPopular">
+            <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
+            <article>
+                <a href="#">
+                    <figure>
+                        <img src="img/hebergements/4_small/cigusta.jpg" alt="Chambre lumineuse avec lit double.">
+                    </figure>
+                    <div class="hostingPopularWrap">
+                        <h3>Restaurent cigusta</h3>
+                        <p>Boisson à partir de <b>1000f</b></p>
+                        <div class="hostingPopularWrapSpace"></div>   
+                        <ul>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="#">
+                    <figure>
+                        <img src="img/hebergements/4_small/chambre1_goldentulip.jpg" alt="Chambre moderne avec lit double.">
+                    </figure>
+                    <div class="hostingPopularWrap">
+                        <h3>Chambre climatisee Golden tulip
+
+                        </h3>
+                        <p>Nuit à partir de <b>71000 fcfa</b></p>
+                        <div class="hostingPopularWrapSpace"></div> 
+                        <ul>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="false" class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                </a>
+              </article>
+              <article>
+                <a href="#">
+                    <figure>
+                        <img src="img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre moderne avec lit double.">
+                    </figure>
+                    <div class="hostingPopularWrap">
+                        <h3>Hôtel Tout bleu et Blanc</h3>
+                        <p>Nuit à partir de <b>68000 fcfa</b></p>
+                        <div class="hostingPopularWrapSpace"></div> 
+                        <ul>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="true" class="fas fa-star"></i></li>
+                            <li><i data-active="false" class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                </a>
+              </article>
+        </aside>
+    </section>
+    <!-- HOSTING -->
+  <!-- ACTIVITIY -->
+  <section class="activity" id="activity">
+    <h2>Activités au Bénin</h2>
+    <a id="un" href="#">
+        <div class="activityWrapimg">
+            <img src="img/activites/3_medium/port_cotonou.jpg" alt="reno-laithienne">
+        </div>
+        <h3>Port Autonome de Cotonou</h3>
+    </a>
+    <a id="deux" href="#">
+        <div class="activityWrapimg">
+            <img src="img/activites/4_small/canalolympia.jpg" alt="paul-hermann">
+        </div>
+        <h3>Cinéma Canal Olympia</h3>
+    </a>
+    <a id="trois" href="#">
+        <div class="activityWrapimg">
+            <img src="img/activites/3_medium/wp.jpg" alt="kilyan-sockalingum">
+        </div>
+        <h3>Parc National d Pendjari</h3>
+    </a>
+    <a id="quatre" href="#">
+        <div class="activityWrapimg">
+            <img src="img/activites/4_small/eglise.jpg" alt="florian-wehde">
+        </div>
+        <h3>Eglise Saint Michel de Cotonou</h3>
+    </a>
+    <a id="cinq" href="#">
+        <div class="activityWrapimg">
+            <img src="img/activites/4_small/place.jpg" alt="kevin-hikari">
+        </div>
+        <h3>Place des Matyrs</h3>
+    </a>
+    <a id="six" href="#">
+        <div class="activityWrapimg">
+            <img src="img/activites/4_small/téléchargement.jpg" alt="lena-paulin">
+        </div>
+        <h3>Etoile rouge</h3>
+    </a>
+</section>
+<!-- ACTIVITY -->
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footerWrapper">
+        <div class="footerWrapperColumn">
+            <h3>A propos</h3>
+            <ul>
+                <li><a href="#">Fonctionnement du site</a></li>
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
+            </ul>
+        </div>
+        <div class="footerWrapperColumn">
+            <h3>Nos hébergements</h3>
+            <ul>
+                <li><a href="#">Charte qualité</a></li>
+                <li><a href="#">Soumettre votre hôtel</a></li>
+            </ul>
+        </div>
+        <div class="footerWrapperColumn">
+            <h3>Assistance</h3>
+            <ul>
+                <li><a href="#">Centre d'aide</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER -->
+</body>
+</html>
